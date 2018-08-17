@@ -1,0 +1,124 @@
+body {
+  background-color: #555459;
+  color: #fff;
+  font-family: 'Poor Story', cursive;
+  font-size: 1.2vmax;
+}
+.wrap {   /* alignment and borders */
+  width: 60vw;
+  height: 100vh;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* BLOCK "HEADER" */
+header {
+  display: flex;
+  flex-flow: row nowrap;
+  /* justify-content: center; */
+  width: 100%;
+  background: url(img/header.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-size: 2.1vmax;
+}
+@keyframes goDown {  /* animation "Hi, I'm Anastasia" */
+  from {
+    padding-top: 0;
+    color: transparent;
+  }
+  to {
+    padding-top: 30vh;
+    color: #555459;
+  }
+}
+.logo {
+  animation: goDown 4s;
+  padding-top: 30vh;
+}
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  color: #555459;
+  justify-content: space-between;
+  white-space: nowrap;
+}
+nav li {
+  padding-right: 10vh;
+  padding-bottom: 2vh;
+}
+nav {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: flex-start;
+  padding-top: 30vh;
+}
+nav a:hover {
+  font-size: 2.4vmax;
+  color: #35315b;
+  font-weight: 400;
+}
+
+/* BLOCK "MAIN" */
+#main {
+  display: flex;
+  background: linear-gradient(to top, #fefcea, #212121);
+  padding-bottom: 30vh;
+}
+.flexMain {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30vh;
+}
+.myPhoto img {
+  width: auto;
+  height: 35vh;
+  margin-right: 2vw;
+  box-shadow: 1vw 1vw 7vw rgba(0, 0, 0, 0.5);
+  border-radius: 2vw;
+  margin-bottom: 2vh;
+}
+.info {
+  display: flex;
+  flex-flow: row wrap;
+  width: 40vw;
+  font-size: 2.2vmax;
+  line-height: 4.9vh;
+  color: #1B1D1B;
+}
+.info p {
+  margin-bottom: 1vh;
+}
+.info h1 {
+  margin-bottom: 1.2vh;
+}
+/* BLOCK "FOOTER" */
+footer {
+  background: #000;
+  display: flex;
+  width: 100%;
+  height: 60vh;
+}
+.contactsWrap {
+  width: 40vw;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 20vh;
+}
+.contactsWrap .aboutContacts {
+  padding-bottom: 10vh;
+  font-size: 1.7vmax;
+}
+.social a img {
+  width: 7vh;
+  height: 7vh;
+}
+.social {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
