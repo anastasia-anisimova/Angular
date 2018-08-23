@@ -1,6 +1,6 @@
 export function counter(endDat: number): string {
-  let today = new Date().getTime();
-  let restTime = new Date(endDat - today);
+  const today = new Date().getTime();
+  const restTime = new Date(endDat - today);
 
     if(endDat > today )
     {
