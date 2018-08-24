@@ -1,0 +1,17 @@
+<div>
+  <h5 (click)="clickHobbies()" [ngClass]="{ headerHobbies: true }">Show my hobbies</h5>
+  <div [ngSwitch]="openHobbies">
+    <div *ngSwitchCase="true" class="flexHobbies">
+      <div>
+        <ul>
+          <li *ngFor="let interest of hobbies">{{interest}}</li>
+        </ul>
+      </div>
+      <div class="addButton">
+        <input [(ngModel)]="inputValue" placeholder="New hobby"> <br>
+        <button (click)="pushHobby()">Add hobby</button>
+      </div>
+    </div>
+    <div *ngSwitchDefault></div>
+  </div>
+</div>

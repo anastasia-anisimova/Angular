@@ -65,6 +65,7 @@ nav a:hover {
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 30vh;
+  height: 150vh;
 }
 .myPhoto img {
   width: auto;
