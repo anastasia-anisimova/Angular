@@ -20,7 +20,6 @@ export class HobbiesComponent implements OnInit {
     for (let i = this.hobbies.length; i < this.getHobbies.length; i++) {
       this.hobbies.push(this.getHobbies[i]); // добавляем в массив hobbies новые данные
     }
-    //localStorage.clear();
   }
 
   pushHobby() {  // запись увлечений в массив
