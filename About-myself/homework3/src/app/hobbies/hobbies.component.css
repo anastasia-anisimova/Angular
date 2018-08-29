@@ -1,0 +1,36 @@
+* {
+  font-size: 1.7vmax;
+}
+
+.headerHobbies {
+  min-width: 11.3vw;
+  padding: 0.3vw;
+  margin-top: 2vh;
+  background-color: #444444;
+  color: #fff;
+}
+
+li {
+  padding: 0.1vw;
+}
+
+button {
+  margin-top: 0.1vmax;
+  font-size: 1.3vmax;
+  background-color: #444444;
+  border-color: #1B1D1B;
+}
+
+.flexHobbies {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.flexHobbies .addButton {
+  padding-top: 1vh;
+  padding-left: 4vw;
+}
+
+h5 {
+  cursor: pointer;
+}
