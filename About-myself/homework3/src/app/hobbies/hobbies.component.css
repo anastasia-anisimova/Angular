@@ -30,3 +30,7 @@ button {
   padding-top: 1vh;
   padding-left: 4vw;
 }
+
+h5 {
+  cursor: pointer;
+}
