@@ -12,7 +12,7 @@ export class DataComponent implements OnInit {
 
   data: Data;
   result: string = "";
-  endDat: number = new Date(2018, 8, 1, 17, 40).getTime();
+  endDat: number = new Date(2019, 5, 1, 10, 0).getTime();
 
   constructor() {
     this.data = new Data(22,

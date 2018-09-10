@@ -8,10 +8,10 @@ export function counter(endDat: number): string {
        + " days " + restTime.getUTCHours().toString() +
       " hours " + restTime.getUTCMinutes().toString()
         + " minutes " + restTime.getUTCSeconds().toString()
-        + " second left in the summer";
+        + " second left before the summer";
     }
     else {
-      return "Autumn :( ";
+      return "Summer! ";
     }
 }
 
